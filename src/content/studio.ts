@@ -9,7 +9,7 @@ export const studio = {
   heroCopy:
     "A warm studio for strength, mobility, and restoration with reformer classes, aerial movement, and recovery-focused wellness care.",
   servicesIntro:
-    "Explore our core offerings, each designed to help you move better, feel stronger, and build a steady wellness routine.",
+    "Explore our range of boutique offerings tailored for your wellness and strength.",
   calendarIntro:
     "Choose a time that fits your week and book directly through our live scheduling page.",
   bookingHeading: "Ready to join us?",
@@ -42,19 +42,19 @@ export const studioLinks = {
 
 export const heroImages = [
   {
-    src: "/images/hero-1.jpg",
+    src: "/images/hero-1.png",
     alt: "Pilates studio interior with reformers and warm natural light",
   },
   {
-    src: "/images/hero-2.jpg",
+    src: "/images/hero-2.png",
     alt: "Instructor guiding a boutique Pilates class",
   },
   {
-    src: "/images/hero-3.jpg",
+    src: "/images/hero-3.png",
     alt: "Aerial yoga setup inside the studio",
   },
   {
-    src: "/images/hero-4.jpg",
+    src: "/images/hero-4.png",
     alt: "Wellness-focused movement session in a calming studio",
   },
 ] as const;
@@ -63,52 +63,52 @@ export const services = [
   {
     title: "Pilates Reformer",
     description:
-      "Strengthen and lengthen with guided reformer sessions that build core stability, posture, and control.",
-    image: "/images/service-reformer.jpg",
+      "Strengthen and lengthen with reformer sessions. Build core stability and lean muscle tone.",
+    image: "/images/service-reformer.png",
     imageAlt: "Pilates reformer equipment in the studio",
   },
   {
     title: "Aerial Yoga",
     description:
-      "Stretch, decompress, and improve mobility with hammock-supported movement that feels both playful and restorative.",
-    image: "/images/service-aerial.jpg",
+      "Stretch and decompress using aerial hammocks. Enhance flexibility and relieve spinal tension.",
+    image: "/images/service-aerial.png",
     imageAlt: "Aerial yoga hammock suspended in the studio",
   },
   {
     title: "Barre",
     description:
-      "Low-impact strength training inspired by ballet, Pilates, and yoga for endurance, alignment, and tone.",
-    image: "/images/service-barre.jpg",
+      "Low-impact strength training combining ballet-inspired moves with elements of Pilates and yoga.",
+    image: "/images/service-barre.png",
     imageAlt: "Barre-inspired movement class in progress",
   },
   {
     title: "Wellness",
     description:
-      "Recovery-focused care including massage, alignment support, and bodywork to complement your movement practice.",
-    image: "/images/service-wellness.jpg",
+      "Holistic care including massage therapy, chiropractic alignments, and physical recovery.",
+    image: "/images/service-wellness.png",
     imageAlt: "Wellness treatment room prepared for recovery work",
   },
 ] as const;
 
 export const galleryPhotos = [
   {
-    src: "/images/gallery-1.jpg",
+    src: "/images/gallery-1.png",
     alt: "Studio lounge area with neutral textures and natural light",
   },
   {
-    src: "/images/gallery-2.jpg",
+    src: "/images/gallery-2.png",
     alt: "Reformer stations arranged for a small-group class",
   },
   {
-    src: "/images/gallery-3.jpg",
+    src: "/images/gallery-3.png",
     alt: "Detail shot of the studio interior and equipment",
   },
   {
-    src: "/images/gallery-4.jpg",
+    src: "/images/gallery-4.png",
     alt: "Open practice space prepared for aerial and mobility work",
   },
   {
-    src: "/images/gallery-5.jpg",
+    src: "/images/gallery-5.png",
     alt: "Quiet wellness corner designed for restoration",
   },
 ] as const;

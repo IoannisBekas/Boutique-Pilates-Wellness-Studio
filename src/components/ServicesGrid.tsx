@@ -16,7 +16,7 @@ export default function ServicesGrid() {
           {services.map((service) => (
             <div 
               key={service.title}
-              className="group bg-brand-white rounded-3xl overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-500 ease-out transform hover:-translate-y-2 border border-brand-sand"
+              className="group cursor-pointer bg-brand-white rounded-3xl overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-500 ease-out transform hover:-translate-y-2 border border-brand-sand"
             >
               <div className="relative h-72 overflow-hidden">
                 <Image
